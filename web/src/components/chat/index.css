@@ -1,0 +1,13 @@
+.messageBox{
+    min-height: 500px;
+    width: 600px;
+}
+
+.input-panel{
+    width: 100%;
+}
+.input-panel input {
+    width: 100%;
+    outline: none;
+    padding: 10px 5px;
+}

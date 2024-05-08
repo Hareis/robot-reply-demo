@@ -1,0 +1,18 @@
+{
+  "host": "localhost",
+  "port": 3032,
+  "public": "./public/",
+  "origins": [
+    "http://localhost:3032",
+    "http://localhost:3001"
+  ],
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "sqlite": {
+    "client": "sqlite3",
+    "connection": "feathers-chat.sqlite",
+    "useNullAsDefault": true
+  }
+}
